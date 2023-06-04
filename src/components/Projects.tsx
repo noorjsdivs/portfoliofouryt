@@ -1,11 +1,11 @@
 import { FaProjectDiagram } from "react-icons/fa";
 import Title from "./Title";
-import amazonClone from "../public/img/projects/amazonClone.webp";
-import cyberBlog from "../public/img/projects/cyberBlog.webp";
-import noorShop from "../public/img/projects/noorShop.webp";
-import dynamicPortfolio from "../public/img/projects/dynamicPortfolio.png";
-import reactBD from "../public/img/projects/reactBD.png";
-import dashboard from "../public/img/projects/dashboard.webp";
+import amazonClone from "../../public/img/projects/amazonClone.webp";
+import cyberBlog from "../../public/img/projects/cyberBlog.webp";
+import noorShop from "../../public/img/projects/noorShop.webp";
+import dynamicPortfolio from "../../public/img/projects/dynamicPortfolio.png";
+import reactBD from "../../public/img/projects/reactBD.png";
+import dashboard from "../../public/img/projects/dashboard.webp";
 import Image from "next/image";
 import ProjectCard from "./ProjectCard";
 
