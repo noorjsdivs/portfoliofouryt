@@ -221,3 +221,32 @@ export const projectsData = [
     link: "https://orebishopping.reactbd.com/",
   },
 ];
+
+// SocialLink Data
+export const SocialLinkData = [
+  {
+    id: 1,
+    title: "Github",
+    link: "https://github.com/noorjsdivs",
+  },
+  {
+    id: 2,
+    title: "Youtube",
+    link: "https://www.youtube.com/@reactjsBD",
+  },
+  {
+    id: 3,
+    title: "Linkedin",
+    link: "https://www.linkedin.com/in/noor-mohammad-ab2245193/",
+  },
+  {
+    id: 4,
+    title: "Facebook",
+    link: "https://www.facebook.com/Noorlalu143/",
+  },
+  {
+    id: 5,
+    title: "Nextjs",
+    link: "https://vercel.com/noorjsdivs",
+  },
+];

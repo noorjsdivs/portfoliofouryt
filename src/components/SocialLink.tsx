@@ -1,10 +1,10 @@
 import { FiArrowUpRight } from "react-icons/fi";
-type Props = {
+interface Item {
   title: string;
   link: string;
 };
 
-const SocialLink = ({ title, link }: Props) => {
+const SocialLink: React.FC<{ item: Item }> = ({ item: { title, link } }) => {
   return (
     <a
       href={link}

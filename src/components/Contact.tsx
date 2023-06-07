@@ -1,5 +1,6 @@
 import { FiArrowUpRight } from "react-icons/fi";
 import SocialLink from "./SocialLink";
+import { SocialLinkData } from "../data/data";
 import Button from "./Button";
 
 const Contact = () => {
@@ -15,17 +16,11 @@ const Contact = () => {
         <Button />
       </div>
       <div className="mt-8 flex items-center flex-wrap   gap-8 justify-center">
-        <SocialLink title="Github" link="https://github.com/noorjsdivs" />
-        <SocialLink title="Youtube" link="https://www.youtube.com/@reactjsBD" />
-        <SocialLink
-          title="Linkedin"
-          link="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
-        />
-        <SocialLink
-          title="Facebook"
-          link="https://www.facebook.com/Noorlalu143/"
-        />
-        <SocialLink title="Nextjs" link="https://vercel.com/noorjsdivs" />
+        {
+          SocialLinkData.map((item)=>(
+            <SocialLink key={item.id} item={item} />
+          ))
+        }
       </div>
     </div>
   );
