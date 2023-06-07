@@ -1,5 +1,6 @@
 import { FiArrowUpRight } from "react-icons/fi";
 import SocialLink from "./SocialLink";
+import Button from "./Button";
 
 const Contact = () => {
   return (
@@ -11,11 +12,7 @@ const Contact = () => {
           presence, or helping with Your website design and converting
           challenges.
         </p>
-        <a href="mailto:noor.jsdivs@gmail.com">
-          <button className="w-52 h-14 bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-950 text-xl font-bold text-white rounded-lg hover:from-indigo-950 hover:to-blue-600 duration-300">
-            Say Hello
-          </button>
-        </a>
+        <Button />
       </div>
       <div className="mt-8 flex items-center flex-wrap   gap-8 justify-center">
         <SocialLink title="Github" link="https://github.com/noorjsdivs" />
